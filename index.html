@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+   <head>
+     <title>CalculadoraSPA</title>
+	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+     <script type="text/javascript" src="calculadora.js"></script>
+	 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+     <link rel="stylesheet" type="text/css" href="calculadora.css" title="style" />
+   </head>
+   </head>
+   <body>
+    <div id="sandbox">
+        <img src="http://www.theinquirer.net/IMG/514/149514/hp2428-270x167.jpg?1453708609" width="45" align="right" style="margin: 5px 5px 0 0">
+        <input id="display" style="text-align:right" type="text"></input>
+        <div class="botones btn-toolbar" role="toolbar">
+            <button id="absoluto" class="especial btn-group" role="group" title="valor absoluto">abs</button>
+            <button id="raiz2" class="especial btn-group" role="group" title="raiz cuadrada">sqrt</button>
+            <button id="raiz3" class="especial btn-group" role="group" title="raiz cubica">cbrt</button>
+            <button id="elevar" class="especial btn-group" role="group" title="eleva al cuadrado">pow</button>
+            <button id="exponencial" class="especial btn-group" role="group" title="exponencial">exp</button>          
+        </div>
+        <div class="botones btn-toolbar" role="toolbar">
+            <button id="parentesis_apertura" class="operando btn-group" role="group" title="Abre parentesis">(</button>
+            <button id="parentesis_cierre" class="operando btn-group" role="group" title="Cierra parentesis">)</button>
+            <button id="seno" class="especial btn-group" role="group" title="seno">sin</button>
+            <button id="coseno" class="especial btn-group" role="group" title="coseno">cos</button>
+            <button id="tangente" class="especial btn-group" role="group" title="tangente">tan</button>          
+        </div>
+        <div class="botones btn-toolbar" role="toolbar">
+			<button id="siete" class="num btn-group" role="group" title="7">7</button>
+			<button id="ocho" class="num btn-group" role="group" title="8">8</button>
+			<button id="nueve" class="num btn-group" role="group" title="9">9</button>
+            <button id="borrar" class="operando btn-group" role="group" title="Borrar">DEL</button>
+            <button id="borrar_todo" class="operando btn-group" role="group" title="Borrar Todo">AC</button>
+			
+        </div>
+        <div class="botones btn-toolbar" role="toolbar">
+			<button id="cuatro" class="num btn-group" role="group" title="4">4</button>
+			<button id="cinco" class="num btn-group" role="group" title="5">5</button>
+			<button id="seis" class="num btn-group" role="group" title="6">6</button>
+			<button id="mult" class="operando btn-group" role="group" title="Multiplicacion">*</button>
+            <button id="division" class="operando btn-group" role="group" title="Division">/</button>
+        </div>
+        <div class="botones btn-toolbar" role="toolbar">
+			<button id="uno" class="num btn-group" role="group" title="1">1</button>
+			<button id="dos" class="num btn-group" role="group" title="2">2</button>
+			<button id="tres" class="num btn-group" role="group" title="3">3</button>
+            <button id="suma" class="operando btn-group" role="group" title="Suma">+</button>
+			<button id="resta" class="operando btn-group" role="group" title="Resta">-</button>
+        </div>
+        <div class="botones btn-toolbar" role="toolbar">
+			<button id="cero" class="num btn-group" role="group" title="0">0</button>
+			<button id="coma" class="num btn-group" role="group" title="Coma decimal">.</button>
+            <button id="memoria_reset" class="mem btn-group" role="group" title="Borra Ans">MR</button>
+            <button id="memoria" class="mem btn-group" role="group" title="Memoria">Ans</button>
+            <button id="igual" class="igual btn-group" role="group" title="Resultado">=</button>
+        </div>
+    </div>
+   </body>
+</html>
